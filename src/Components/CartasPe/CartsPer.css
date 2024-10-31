@@ -1,0 +1,32 @@
+
+#contor {
+    background-color: #f0f4f8; /* Fondo claro */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+#contor:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#info {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* Color de texto oscuro */
+    margin-left: 15px;
+    flex: 1;
+}

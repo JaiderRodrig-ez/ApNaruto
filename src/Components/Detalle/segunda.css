@@ -1,0 +1,37 @@
+#contor2 {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 10px auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #f0f0f0; 
+}
+
+#imgae2 img {
+    width: 500px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+#info2, #jutsu, #family {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.cartas2 {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    width: 68.5vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
+    margin: 0; 
+    background-color: rgb(208, 218, 186); 
+    border-radius: 5px; 
+}
+

@@ -1,0 +1,54 @@
+
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    width: 68.5vw;
+    height: auto;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 1%;
+}
+
+#cartaun{
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: 500px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+
+.cartas2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 68.5vw;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(208, 218, 186);
+    border-radius: 1%;
+    height: 100vh;
+}
+
+#mitad{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    width: 68.5vw;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 1%;
+    height: 100vh;
+}
+
+#cartaun2{
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: 250px;
+    min-width: 200px;
+    box-sizing: border-box;
+}
